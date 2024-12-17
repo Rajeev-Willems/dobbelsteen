@@ -1,0 +1,16 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace dobbelsteen_app.models
+{
+    internal class dobbelsteen
+    {
+        
+        public string Naam { get; set; }
+        public string Kleur { get; set; }
+        public int AantalKanten { get; set; }
+    }
+}
